@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap");
+* {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #111729;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  padding: 2.4rem 2rem;
+  width: 500px;
+  background-color: #20293a;
+  border-radius: 20px;
+  background-image: url("./assets/bg-image-random-quote.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.info .name {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.info .tags {
+  margin-top: 0.8rem;
+}
+.info .tags .tag {
+  padding: 0.25rem 0.8rem;
+  color: #6466e9;
+  font-size: 0.625rem;
+  border: 1px solid #6466e9;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.quote {
+  margin-top: 1.6rem;
+}
+.quote .text {
+  font-size: 1.5rem;
+  color: #97a3b6;
+  background-color: transparent;
+  border: none;
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+}
+.buttons .btn {
+  padding: 8px 12px;
+  background-color: transparent;
+  border: 0.5px solid rgba(151, 163, 182, 0.5);
+  margin: 0;
+  border-radius: 0;
+  cursor: pointer;
+}
+.buttons .btn .image {
+  width: 2rem;
+}
+.buttons .btn.copy {
+  border-radius: 0 4px 4px 0;
+}
+.buttons .btn.change {
+  border-radius: 4px 0 0 4px;
+}
+
+/*# sourceMappingURL=styles.css.map */
